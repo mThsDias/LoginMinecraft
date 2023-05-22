@@ -8,7 +8,7 @@ import imgVibrate from '../img/vibrate.svg'
 function Footer() {
     return(
         <div className={styles.divContainerFooter}>
-            <div>
+            <div className={styles.power}>
                 <img src={imgPower} alt='img' />
                 <h4>Jogue também offline</h4>
             </div>

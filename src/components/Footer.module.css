@@ -1,29 +1,129 @@
 .divContainerFooter {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #fff;
-    gap: 80px;
-    margin-top: 120px;
+    gap: 40px;
+    margin-top: 100px;
     font-family: 'Kufam', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
 
-.divContainerFooter img{
-   margin-left: 90px;
+.power {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.power img {
+    width: 100%;
+    max-width: 40px
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .user  img {
-    margin-left: 45px;
+    width: 100%;
+    max-width: 40px
+}
+
+.controller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .controller img{
-    margin-left: 115px; 
+    width: 100%;
+    max-width: 40px 
+}
+
+.vibrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vibrate img{
-    margin-left: 75px;
+    width: 100%;
+    max-width: 40px
+}
+
+.kid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .kid img{
-    margin-left: 80px;
+    width: 100%;
+    max-width: 40px
+}
+
+@media (max-width: 1200px) {
+    .divContainerFooter {
+        font-size: 12px;
+        margin-top: 100px;
+    }
+
+    .divContainerFooter img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .divContainerFooter {
+        font-size: 10px;
+        gap: 30px;
+        margin-top: 90px;
+    }
+
+    .divContainerFooter img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 710px) {
+    .divContainerFooter {
+      gap: 20px;
+      font-size: 10px;
+      margin-top: 100px;
+    }
+
+    .divContainerFooter img {
+        width: 30px;
+    }
+  }
+
+  @media (max-width: 690px) {
+    .divContainerFooter {
+        font-size: 10px;
+        gap: 15px;
+    }
+
+    .divContainerFooter img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .divContainerFooter {
+        
+        font-size: 9px;
+        gap: 15px;
+    }
+
+    .divContainerFooter img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .divContainerFooter {
+        display: none;
+    }
 }

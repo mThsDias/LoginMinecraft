@@ -1,6 +1,11 @@
 import styles from './NavBar.module.css'
+import { GoThreeBars } from "react-icons/go";
+
+
 
 function NavBar () {
+
+   
     return (
         <div>
             <nav className={styles.navBar}>
