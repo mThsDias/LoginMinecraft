@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/wallpaper.png);
+    box-shadow: inset 0px 0px 90px 290px  #000000c2;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleMine {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins';
+    padding-top: 46px;
+}
+
+.titleMine h1 {
+    padding-left: 8px;
+}

@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 64px;
+    width: 100%;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kufam', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+}
+
+.navBar a:hover {
+    background: #ffffff16;
+    color: #33E29A;
+    border-radius: 10px;
+    transition: .5s;
+    transform: scale(1.1);
+}

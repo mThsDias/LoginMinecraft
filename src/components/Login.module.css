@@ -1,0 +1,97 @@
+.loginContainer {
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    min-height: 47vh;
+    border-radius: 10px;
+    background-color: #09090ba8;
+    margin: 70px auto;
+    color: #fff;
+    font-family: 'Kufam', sans-serif;
+}
+
+.loginContainer button {
+    color: #fff;
+    background: linear-gradient(90.89deg, #22AE75 0%, #00874F 52.36%);
+    border: transparent;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 12px 110px;
+    font-family: 'Kufam';
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.loginContainer button:hover {
+    background: #ffffff16;
+    color: #33E29A;
+    border-radius: 10px;
+    transition: .5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login input {
+    width: 300px;
+    height: 38px;
+    background: 
+    linear-gradient(0deg, #262626, #262626),
+    linear-gradient(0deg, #414141, #414141);
+    border: 1px solid #414141;
+    border-radius: 6px;
+}
+
+.loginContainer img {
+    margin-top: 32px;
+}
+
+.relembrarSenhaContainer {
+    display: flex;
+    margin-right: 113px;
+    margin-top: 30px;
+}
+
+.relembrarSenhaContainer input {
+    width: 16px;
+    height: 14px;
+    margin-right: 11px;
+}
+
+.relembrarSenhaContainer h4 {
+    font-size: 12px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #33E29A;
+}
+
+.loginContainer a:hover {
+    text-decoration: underline;
+}
+
+.containerEmail {
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder  { 
+    padding-left: 10px; 
+}
+
+.containerEmail h4 {
+    margin-bottom: 6px;
+}
+
+.containerPassword {
+    margin-top: 24px;
+}
+
+.containerPassword h4 {
+    margin-bottom: 6px;
+}
